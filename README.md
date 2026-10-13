@@ -18,6 +18,10 @@ No backend, database, payment processor, form library, animation library, or ico
 3. Run `npm run dev` and open the local URL printed by Vite.
 4. Run `npm run build` to create the production frontend bundle in `dist/`.
 
+## GitHub Pages deployment
+
+The Vite base path is configured for `https://aditichaudhary05.github.io/Vardan-AgriOrganics/`. The workflow in `.github/workflows/deploy.yml` builds and deploys `dist/` whenever a commit reaches `main`. In the repository, set **Settings → Pages → Build and deployment → Source** to **GitHub Actions**. Check the Actions tab for the first deployment run; the live URL updates after the workflow succeeds.
+
 ## Routes
 
 - `/` home
